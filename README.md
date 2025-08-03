@@ -22,7 +22,7 @@
 - [React-Redux](https://react-redux.js.org/)
 - [Material-UI (MUI)](https://mui.com/)
 - [Recharts](https://recharts.org/)
-- [Vite](https://vitejs.dev/) (或 Create React App，請依你的實作調整)
+- [Vite](https://vitejs.dev/)
 
 ---
 
