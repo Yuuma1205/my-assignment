@@ -1,12 +1,50 @@
-# React + Vite
+# My Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+一個使用 React + TypeScript + Redux Toolkit 製作的小型專案，包含計數器元件與世界銀行人口數據視覺化。  
+本專案適合作為前端技術練習、面試作品集展示。
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 功能 Features
 
-## Expanding the ESLint configuration
+- **Counter Button Group**  
+  以 Redux Toolkit 管理狀態的計數器組件，含增減、歸零、禁用等功能。
+- **World Bank Population Chart**  
+  以 Recharts 呈現世界銀行 API 的人口資料，顯示中國近十年城鎮/鄉村人口變化。
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 技術棧 Tech Stack
+
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [React-Redux](https://react-redux.js.org/)
+- [Material-UI (MUI)](https://mui.com/)
+- [Recharts](https://recharts.org/)
+- [Vite](https://vitejs.dev/) (或 Create React App，請依你的實作調整)
+
+---
+
+## 專案啟動與開發（本地端）
+
+1. 下載本專案
+2. 安裝相依套件
+
+   ```bash
+   npm install
+   ```
+   
+3. 啟動開發伺服器
+   
+   ```bash
+   npm run dev
+   ```
+---
+
+##DEMO
+
+Check out the live demo here:  
+👉 [Demo Website](https://chipper-begonia-7546e8.netlify.app/)
+
+---
